@@ -15,41 +15,75 @@
 .breaking-text{
     background-color: rgb(187, 1, 1);
     width: 35%;
-    font-size: 17px;
-    padding: 2px 5px 2px 2px;
+    font-size: 20px;
+    padding: 5px 5px 5px 2px;
     margin: 0;
 }
 .headline{
     background-color: white;
     color: black;
-    padding: 2px 5px 2px 4px;
+    padding: 3px 0px 5px 4px;
     width: 95%;
-    height: 30px;
+    height: 35px;
     margin: 0;
-    font-size: 22px;
+    font-size: 30px;
     overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ticker-div{
+    margin: 0;
+    display: flex;
+}
+h4{
+    margin: 0;
+    background-color: black;
+    padding: 3px 4px 5px 2px;
+    font-size: 14px;
+    font-weight: 500;
 }
 .ticker{
-    background-color: black;
-    color: white;
-    padding: 3px 5px 2px 4px;
-    width: 95%;
-    height: 22px;
+    background-color: yellow;
+    color: black;
+    padding: 5px 0px 5px 4px;
+    width: 90%;
     margin: 0;
     font-size: 14px;
     overflow: hidden;
+    height: 23px;
+}
+
+.live{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: rgb(187, 1, 1);
+    color: white;
+    font-weight: 700;
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-btn{
+    background-color: limegreen;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    font-size: 17px;
+    margin-top: 7px;
 }
 
 
 @media (max-width: 600px) {
     .headline{
-        font-size: 15px;
-        height: 25px;
+        font-size: 20px;
         font-weight: 700;
     }
     .ticker{
         font-size: 10px;
-        height: 18px;
     }
     .breaking-text{
         width: 40%;

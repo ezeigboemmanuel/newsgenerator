@@ -1,13 +1,13 @@
 import Display from "./display"
 import "./editstyle.css"
 import newspic from '../newspic.jpg'
-
 import React from 'react'
+
 
 function Edit() {
     const [text, setText] = React.useState({
-        headline: "TINUBU REIGNS",
-        ticker: "THE NEW NIGERIAN PRESIDENT",
+        headline: "CATCHY HEADLINE",
+        ticker: "NICE TICKER",
     })
 
     function handleChange(event){
@@ -30,11 +30,14 @@ function Edit() {
       setImage(propic.src)
     }
 
+
+  
+
   return (
     <div className="edit-container">
-        <div>
+        <div className="edit-div">
           <img src = {newspic} id = "propic" alt = "newspic" className="image"/> 
-          <p>A good way to make your friends laugh.</p>
+          <p>In a surprising turn of events, a cutting-edge News Generator has emerged, capturing the attention of netizens worldwide. This whimsical tool, developed by Ezeigbo Emmanuel, promises to bring endless entertainment to users by generating hilarious and outrageous breaking news headlines at the click of a button.</p>
           <h2>Headline</h2>  
           <input className="text-input" type = "text" name = 'headline' placeholder="write your headline here..." onChange={handleChange} />
 
@@ -43,6 +46,9 @@ function Edit() {
 
           <h2>Your Image</h2>
           <input type = "file" accept="image/jpeg, image/png, image/jpg" id = "inputPic" onChange={handleInputChange} />
+          <br />
+          <br />
+          <b>Disclaimer: The Breaking News Generator is for entertainment purposes only. The generated headlines are fictional and should not be considered real news.</b>
         </div>
         <div className="dis-div">
           <Display className = "dis" text = {text} src = {image} />
