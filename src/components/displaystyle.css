@@ -1,6 +1,7 @@
 .central-div{
-    width: 100%;
-    height: 400px;
+    width: 100% !important;
+    aspect-ratio: auto 1280 / 720;
+    height: auto;
     background-color: blue;
     color: white;
     position: relative;
@@ -86,7 +87,7 @@ h4{
     }
     .ticker{
         font-size: 12px;
-        height: 19px;
+        height: 17px;
     }
     .breaking-text{
         width: 48%;

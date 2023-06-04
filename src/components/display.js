@@ -25,7 +25,7 @@ function Display(props) {
         {/* <h2>Headline: {props.text.headline}</h2>
         <h2>Ticker: {props.text.ticker}</h2>  */}
       <div className="central-div" id = "image-download">
-        <img src = {props.src} alt = "newspic" className="central-div"/>
+        <img src = {props.src} width = "1280" height = "700" alt = "newspic" className="central-div"/>
         <p className="live">LIVE</p>
         <div className="pos-div">
           <h2 className="breaking-text">BREAKING NEWS</h2>
