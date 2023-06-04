@@ -14,7 +14,7 @@
 }
 .breaking-text{
     background-color: rgb(187, 1, 1);
-    width: 35%;
+    width: 40%;
     font-size: 20px;
     padding: 5px 5px 5px 2px;
     margin: 0;
@@ -33,6 +33,7 @@
 .ticker-div{
     margin: 0;
     display: flex;
+    width: 96%;
 }
 h4{
     margin: 0;
@@ -45,7 +46,7 @@ h4{
     background-color: yellow;
     color: black;
     padding: 5px 0px 5px 4px;
-    width: 90%;
+    width: 100%;
     margin: 0;
     font-size: 14px;
     overflow: hidden;
@@ -86,6 +87,6 @@ h4{
         font-size: 10px;
     }
     .breaking-text{
-        width: 40%;
+        width: 48%;
     }
 }

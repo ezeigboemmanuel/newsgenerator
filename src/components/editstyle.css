@@ -4,7 +4,7 @@
     justify-content: space-around;
 }
 .edit-div{
-    width: 50%;
+    width: 40%;
 }
 h2{
     font-size: 17px;
@@ -16,7 +16,7 @@ h2{
     font-size: 15px;
 }
 .dis-div{
-    width: 45%;
+    width: 55%;
 }
 .dis{
     width: 45%;
@@ -35,6 +35,9 @@ h2{
         width: 100%;
     }
     .dis{
+        width: 100%;
+    }
+    .edit-div{
         width: 100%;
     }
 }

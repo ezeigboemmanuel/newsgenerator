@@ -48,8 +48,9 @@ function Edit() {
           <input type = "file" accept="image/jpeg, image/png, image/jpg" id = "inputPic" onChange={handleInputChange} />
           <br />
           <br />
-          <b>Disclaimer: The Breaking News Generator is for entertainment purposes only. The generated headlines are fictional and should not be considered real news.</b>
+          <b>Note: The Breaking News Generator is for entertainment purposes only. The generated headlines are fictional and should not be considered real news.</b>
         </div>
+        <br />
         <div className="dis-div">
           <Display className = "dis" text = {text} src = {image} />
         </div>  
